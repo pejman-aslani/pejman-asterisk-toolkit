@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi;
+namespace PejmanAslani\Asterisk\Agi;
 
 /**
  * Represents a response from the Asterisk server for a given command.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi\Helpers;
+namespace PejmanAslani\Asterisk\Agi\Helpers;
 
-use Pejman\Asterisk\Agi\AGI;
+use PejmanAslani\Asterisk\Agi\AGI;
 
 /**
  * A Menu Builder helper to create interactive menus with a fluent interface.

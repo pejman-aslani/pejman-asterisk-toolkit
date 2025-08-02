@@ -3,8 +3,8 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Pejman\Asterisk\Agi\AGI;
-use Pejman\Asterisk\Agi\Helpers\Menu; // Import our new helper
+use PejmanAslani\Asterisk\Agi\AGI;
+use PejmanAslani\Asterisk\Agi\Helpers\Menu; // Import our new helper
 
 // Sound files needed are the same as before.
 

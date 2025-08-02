@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi\Command;
+namespace PejmanAslani\Asterisk\Agi\Command;
 
 readonly class GetDataCommand implements CommandInterface
 {

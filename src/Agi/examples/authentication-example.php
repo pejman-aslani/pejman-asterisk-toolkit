@@ -3,8 +3,8 @@
 
 require __DIR__ . '/../../../vendor/autoload.php';
 
-use Pejman\Asterisk\Agi\AGI;
-use Pejman\Asterisk\Agi\Helpers\AuthenticationHelper;
+use PejmanAslani\Asterisk\Agi\AGI;
+use PejmanAslani\Asterisk\Agi\Helpers\AuthenticationHelper;
 
 // Note: This script runs in Standard AGI mode.
 // It will not use the FastAGI server or the Monolog logger.

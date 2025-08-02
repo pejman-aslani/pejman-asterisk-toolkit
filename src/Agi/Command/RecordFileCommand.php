@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Pejman\Asterisk\Agi\Command;
+namespace PejmanAslani\Asterisk\Agi\Command;
 readonly class RecordFileCommand implements CommandInterface {
     public function __construct(
         private string $filename,

@@ -8,10 +8,10 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
-use Pejman\Asterisk\Agi\AGI;
-use Pejman\Asterisk\Agi\Connection\FastAgiConnection;
-use Pejman\Asterisk\Agi\Exception\ConnectionException;
-use Pejman\Asterisk\Agi\Helpers\Menu;
+use PejmanAslani\Asterisk\Agi\AGI;
+use PejmanAslani\Asterisk\Agi\Connection\FastAgiConnection;
+use PejmanAslani\Asterisk\Agi\Exception\ConnectionException;
+use PejmanAslani\Asterisk\Agi\Helpers\Menu;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Formatter\LineFormatter;

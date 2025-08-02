@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Ami;
+namespace PejmanAslani\Asterisk\Ami;
 
 use Evenement\EventEmitter;
 use Psr\Log\LoggerInterface;

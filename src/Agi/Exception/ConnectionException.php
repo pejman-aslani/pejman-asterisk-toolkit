@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi\Exception;
+namespace PejmanAslani\Asterisk\Agi\Exception;
 
 /**
  * Thrown when there is an issue with the connection to the Asterisk server.

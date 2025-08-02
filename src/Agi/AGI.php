@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi;
+namespace PejmanAslani\Asterisk\Agi;
 
-use Pejman\Asterisk\Agi\Command\AnswerCommand;
-use Pejman\Asterisk\Agi\Command\CommandInterface;
-use Pejman\Asterisk\Agi\Command\DatabaseGetCommand;
-use Pejman\Asterisk\Agi\Command\DatabasePutCommand;
-use Pejman\Asterisk\Agi\Command\ExecCommand;
-use Pejman\Asterisk\Agi\Command\GetDataCommand;
-use Pejman\Asterisk\Agi\Command\GetVariableCommand;
-use Pejman\Asterisk\Agi\Command\GotoCommand;
-use Pejman\Asterisk\Agi\Command\HangupCommand;
-use Pejman\Asterisk\Agi\Command\RecordFileCommand;
-use Pejman\Asterisk\Agi\Command\SayNumberCommand;
-use Pejman\Asterisk\Agi\Command\SetVariableCommand;
-use Pejman\Asterisk\Agi\Command\StreamFileCommand;
-use Pejman\Asterisk\Agi\Connection\ConnectionInterface;
-use Pejman\Asterisk\Agi\Connection\StandardInputOutputConnection;
+use PejmanAslani\Asterisk\Agi\Command\AnswerCommand;
+use PejmanAslani\Asterisk\Agi\Command\CommandInterface;
+use PejmanAslani\Asterisk\Agi\Command\DatabaseGetCommand;
+use PejmanAslani\Asterisk\Agi\Command\DatabasePutCommand;
+use PejmanAslani\Asterisk\Agi\Command\ExecCommand;
+use PejmanAslani\Asterisk\Agi\Command\GetDataCommand;
+use PejmanAslani\Asterisk\Agi\Command\GetVariableCommand;
+use PejmanAslani\Asterisk\Agi\Command\GotoCommand;
+use PejmanAslani\Asterisk\Agi\Command\HangupCommand;
+use PejmanAslani\Asterisk\Agi\Command\RecordFileCommand;
+use PejmanAslani\Asterisk\Agi\Command\SayNumberCommand;
+use PejmanAslani\Asterisk\Agi\Command\SetVariableCommand;
+use PejmanAslani\Asterisk\Agi\Command\StreamFileCommand;
+use PejmanAslani\Asterisk\Agi\Connection\ConnectionInterface;
+use PejmanAslani\Asterisk\Agi\Connection\StandardInputOutputConnection;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

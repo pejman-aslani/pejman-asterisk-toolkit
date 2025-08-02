@@ -6,7 +6,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
-use Pejman\Asterisk\Ami\AmiClient;
+use PejmanAslani\Asterisk\Ami\AmiClient;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use React\EventLoop\Loop;

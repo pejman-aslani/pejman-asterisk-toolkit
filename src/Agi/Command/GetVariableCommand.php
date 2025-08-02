@@ -1,6 +1,6 @@
 <?php
 
-namespace Pejman\Asterisk\Agi\Command;
+namespace PejmanAslani\Asterisk\Agi\Command;
 
 
 

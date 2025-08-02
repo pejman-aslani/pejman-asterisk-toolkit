@@ -1,26 +1,37 @@
 {
-    "name": "pejman/asterisk-toolkit",
-    "description": "A comprehensive PHP framework for Asterisk (AGI, AMI, ARI).",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Pejman\\Asterisk\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Pejman Aslani"
-        }
-    ],
-    "require": {
-        "php": ">=8.2",
-        "psr/log": "^3.0",
-        "monolog/monolog": "^3.5",
-        "vlucas/phpdotenv": "^5.6",
-        "react/event-loop": "^1.5",
-        "react/socket": "^1.16",
-        "react/stream": "^1.4",
-        "evenement/evenement": "^3.0"
+  "name": "pejman-aslani/asterisk-toolkit",
+  "description": "A comprehensive, asynchronous, and event-driven PHP framework for Asterisk, providing tools for AGI, AMI, and more.",
+  "keywords": [
+    "asterisk",
+    "php",
+    "ami",
+    "agi",
+    "fastagi",
+    "telephony",
+    "async",
+    "reactphp"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pejman\\Asterisk\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Pejman Aslani",
+      "email": "pejmanaslani7799@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "psr/log": "^3.0",
+    "monolog/monolog": "^3.5",
+    "vlucas/phpdotenv": "^5.6",
+    "react/event-loop": "^1.5",
+    "react/socket": "^1.16",
+    "react/stream": "^1.4",
+    "evenement/evenement": "^3.0"
+  }
 }

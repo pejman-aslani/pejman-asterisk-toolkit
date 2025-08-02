@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi\Command;
+namespace PejmanAslani\Asterisk\Agi\Command;
 
-use Pejman\Asterisk\Agi\Command\CommandInterface;
+use PejmanAslani\Asterisk\Agi\Command\CommandInterface;
 
 /**
  * Represents the 'SAY NUMBER' AGI command.

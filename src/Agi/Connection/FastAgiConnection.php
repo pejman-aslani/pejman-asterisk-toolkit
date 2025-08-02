@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pejman\Asterisk\Agi\Connection;
+namespace PejmanAslani\Asterisk\Agi\Connection;
 
-use Pejman\Asterisk\Agi\Exception\ConnectionException;
+use PejmanAslani\Asterisk\Agi\Exception\ConnectionException;
 
 /**
  * Connection handler for FastAGI using network sockets.

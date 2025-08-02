@@ -6,7 +6,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use  Pejman\Asterisk\Agi\AGI;
+use  PejmanAslani\Asterisk\Agi\AGI;
 
 // --- Script Starts Here ---
 
